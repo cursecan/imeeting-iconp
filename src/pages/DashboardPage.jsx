@@ -70,7 +70,7 @@ const DashboardPage = () => {
                                                     return (
                                                         <div className="" key={index}>
                                                             <div className="flex items-center font-semibold uppercase text-gray-500 gap-3">
-                                                                <div className="relative">
+                                                                <div className="relative flex border-2 rounded-full border-gray-400 ">
                                                                     <div className="">
                                                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                                                         <path strokeLinecap="round" strokeLinejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
@@ -109,7 +109,7 @@ const DashboardPage = () => {
                                                                                                         <div className="flex-1 font-medium">{n.name}</div>
                                                                                                         <div className="flex-1">
                                                                                                             <div className="">{n.totalPackage}</div>
-                                                                                                            <div className="p-1 rounded-xl bg-sky-500" style={{width: `${parseInt(n.totalPackage)/300*100}%`}}></div>
+                                                                                                            <div className="p-1 rounded-xl bg-sky-500" style={{width: `${parseInt(n.totalPackage)/j.totalConsumption.reduce((total, m) => total+parseInt(m.totalPackage), 0)*100}%`}}></div>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 )
