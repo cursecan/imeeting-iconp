@@ -99,13 +99,15 @@ const HomePage = () => {
 
 
         return (
-            <div className="px-6">
-                <div className="bg-white rounded-xl shadow">
-                    <form onSubmit={(e) => {e.preventDefault(); setPostForm(true)}} action="">
-                        <div className="px-6 py-6">
-                            <div className="text-lg font-medium">Informasi Ruang Meeting</div>
-                            <div className="space-y-6 mt-6">
-                                <div className="flex gap-6">
+            <div className="">
+                <div className="content-box">
+                    {/* content box */}
+                    <form className="space-y-[36px]" onSubmit={(e) => {e.preventDefault(); setPostForm(true)}} action="">
+                        {/* info ruang */}
+                        <div className="">
+                            <div className="space-y-[16px]">
+                                <div className="font-medium">Informasi Ruang Meeting</div>
+                                <div className="flex gap-[20px]">
                                     {
                                         unit.length > 0 && <div className="form-control max-w-xs w-full">
                                             <label htmlFor="">Unit</label>
@@ -137,31 +139,32 @@ const HomePage = () => {
                                         </div>
                                     }
                                 </div>
-                                <div className="form-control max-w-xs w-full">
+                                <div className="form-control max-w-[268px] w-full">
                                     <label htmlFor="">Kapasitas</label>
                                     <input disabled className="disabled input w-full" type="text" value={roomObj ? roomObj.capacity : 0} />
                                 </div>
                             </div>
                         </div>
-                        <div className="border-b mx-6"></div>
-                        <div className="px-6 py-6">
-                            <div className="text-lg font-medium">Informasi Rapat</div>
-                            <div className="space-y-6 mt-6">
-                                <div className="flex gap-6">
-                                    <div className="form-control max-w-xs w-full">
+                        <div className="border-b-2"></div>
+                        {/* info rapat */}
+                        <div className="">                            
+                            <div className="space-y-[16px]">
+                                <div className="font-medium">Informasi Rapat</div>
+                                <div className="flex gap-[20px]">
+                                    <div className="form-control max-w-[268px] w-full">
                                         <label htmlFor="">Tanggal Rapat <span className="text-red-500">*</span></label>
                                         <div className="flex rounded-xl border bg-white">
-                                            <div className="flex px-3 items-center justify-center text-sky-500">
+                                            <div className="flex px-3 items-center justify-center text-sky2-50">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                                 <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
                                                 </svg>
                                             </div>
                                             <div className="flex-1">
-                                                <DatePicker dateFormat={'dd MMM YYYY'} className="pr-4 py-3 w-full outline-none" selected={startDate} onChange={(date) => setStartDate(date)} />
+                                                <DatePicker dateFormat={'dd MMM YYYY'} className="pr-4 h-[42px] w-full outline-none" selected={startDate} onChange={(date) => setStartDate(date)} />
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="form-control max-w-xs w-full">
+                                    <div className="form-control max-w-[268px] w-full">
                                         <label htmlFor="">Waktu Mulai</label>
                                         <select required value={startHour} onChange={(e) => setStartHour(e.target.value)} className={`select w-full bg-white ${startHour == '' ? 'text-gray-400' : 'text-black'}`} name="" id="">
                                             <option value="">Pilih Waktu Mulai</option>
@@ -174,7 +177,7 @@ const HomePage = () => {
                                             }
                                         </select>
                                     </div>
-                                    <div className="form-control max-w-xs w-full">
+                                    <div className="form-control max-w-[268px] w-full">
                                         <label htmlFor="">Waktu Selesai</label>
                                         <select required value={endHour} onChange={(e) => setEndHour(e.target.value)} className={`select w-full bg-white ${endHour == '' ? 'text-gray-400' : 'text-black'}`} name="" id="">
                                         <option value="">Pilih Waktu Selesai</option>
@@ -188,11 +191,11 @@ const HomePage = () => {
                                         </select>
                                     </div>
                                 </div>
-                                <div className="form-control max-w-xs w-full">
+                                <div className="form-control max-w-[268px] w-full">
                                     <label htmlFor="">Jumlah Peserta</label>
-                                    <input required className="w-full input" type="text"  placeholder="Masukan Jumlah Peserta" value={peserta} onChange={(e) => setPeserta(e.target.value)} />
+                                    <input required className="w-full input" type="number"  placeholder="Masukan Jumlah Peserta" value={peserta} onChange={(e) => setPeserta(e.target.value)} />
                                 </div>
-                                <div className="form-control max-w-xs w-full">
+                                <div className="form-control max-w-[268px] w-full">
                                     <label htmlFor="">Jenis Konsumsi</label>
                                     <div className="space-y-1">
                                         {
@@ -206,21 +209,22 @@ const HomePage = () => {
                                         }
                                     </div>
                                 </div>
-                                <div className="form-control max-w-xs w-full">
+                                <div className="form-control max-w-[268px] w-full">
                                     <label htmlFor="">Nominal Konsumsi</label>
                                     <div className="flex rounded-xl overflow-hidden border">
                                         <div className="flex items-center bg-gray-300 px-4">
                                             Rp.
                                         </div>
-                                        <div className="bg-white px-4 py-3">{IDR(total).format()}</div>
+                                        <div className="bg-white px-4 h-[42px] flex items-center">{IDR(total).format()}</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="border-b mx-6"></div>
-                        <div className="flex items-center justify-end px-6 py-6 gap-6">
+                        <div className="border-b-2"></div>
+                        {/* action */}
+                        <div className="flex items-center justify-end gap-6">
                             <button type="button" onClick={() => setShowCreateForm(false)} className="">Batal</button>
-                            <button disabled={!validasi} className={`px-6 py-2 rounded-xl border ${validasi ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}>Simpan</button>
+                            <button disabled={!validasi} className={`px-6 h-[43px] rounded-xl border ${validasi ? 'bg-sky2-100 text-white' : 'bg-gray-300'}`}>Simpan</button>
                         </div>
                     </form>
                 </div>
@@ -256,45 +260,52 @@ const HomePage = () => {
     return (
         <div>
             {/* Main */}
-            <div className="mt-20">
-                <div className="px-6 py-6">
-                    <div className="flex items-center">
-                        <div className="">
-                            <div className="text-xl font-semibold">{ showCreateForm ? 'Pengajauan Perangkat' : 'Ruang Meeting'}</div>
+            <div className="mt-[64px]">
+                <div className="box-container">
+                    <div className="">
+                        <div className="flex gap-[16px]">
                             {
-                                showCreateForm ? <div className="flex text-gray-400 text-sm  mt-1 items-center gap-3">
-                                    <span className="">Pengajuan Perangkat</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                                    </svg>
-                                    <span className="text-sky-600">Perangakat Baru</span>
-                                </div> : <div className="text-sm text-sky-600 mt-1">Ruang Metting</div>
-                            }
-                        </div>
-                        <div className="flex-1 flex items-center justify-end">
-                            {
-                                !showCreateForm && <button onClick={() => setShowCreateForm(true)} className="px-6 py-3 rounded-xl text-white bg-sky-500">
-                                    <div className="flex items-center gap-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                showCreateForm && <div className="flex items-stretch justify-center">
+                                    <button onClick={() => setShowCreateForm(false)} className="bg-sky2-100 text-white w-[42px] h-[42px] rounded-xl flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                                         </svg>
-                                        <span>Pesan Ruangan</span>
-                                    </div>
-                                </button>
+                                    </button>
+                                </div>
                             }
+                            <div className="">
+                                <div className="header font-semibold">{ showCreateForm ? 'Pengajuan Perangkat' : 'Ruang Meeting'}</div>
+                                {
+                                    showCreateForm ? <div className="subheader text-gray-400 flex mt-1 items-center gap-3">
+                                        <span className="">Pengajuan Perangkat</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                        <span className="text-sky2-100">Perangakat Baru</span>
+                                    </div> : <div className="subheader text-sm text-sky2-100 mt-1">Ruang Metting</div>
+                                }
+                            </div>
+                            <div className="flex-1 flex items-center justify-end">
+                                {
+                                    !showCreateForm && <button onClick={() => setShowCreateForm(true)} className="btn btn-blue">
+                                        <div className="flex items-center gap-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                            </svg>
+                                            <span>Pesan Ruangan</span>
+                                        </div>
+                                    </button>
+                                }
+                            </div>
                         </div>
                     </div>
+
+                    {
+                        // content
+                        showCreateForm && <FormBox />
+                    }
                 </div>
-
-                {
-                    showCreateForm && <FormBox />
-                }
-                
             </div>
-
-
-           
-            
         </div>
     )
 }
