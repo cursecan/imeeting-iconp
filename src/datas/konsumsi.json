@@ -1,0 +1,20 @@
+[
+    {
+      "createdAt": "2024-07-04T04:03:28.947Z",
+      "name": "Snack Siang",
+      "maxPrice": 20000,
+      "id": "1"
+    },
+    {
+      "createdAt": "2024-07-04T10:04:22.946Z",
+      "name": "Makan Siang",
+      "maxPrice": 30000,
+      "id": "2"
+    },
+    {
+      "createdAt": "2024-07-03T21:57:46.929Z",
+      "name": "Snack Sore",
+      "maxPrice": 20000,
+      "id": "3"
+    }
+  ]

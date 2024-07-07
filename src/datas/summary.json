@@ -1,0 +1,550 @@
+[
+    {
+      "createdAt": "2024-07-04T00:29:50.917Z",
+      "period": "Jan-2024",
+      "data": [
+        {
+          "officeName": "UID JAYA",
+          "detailSummary": [
+            {
+              "roomName": "Ruang Borobudur",
+              "capacity": "75",
+              "averageOccupancyPerMonth": "38",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "150",
+                  "totalPrice": "3000000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "100",
+                  "totalPrice": "3000000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "20",
+                  "totalPrice": "400000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Prambanan",
+              "capacity": "50",
+              "averageOccupancyPerMonth": "42",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "37",
+                  "totalPrice": "740000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "87",
+                  "totalPrice": "2610000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "77",
+                  "totalPrice": "1540000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Mendhut",
+              "capacity": "30",
+              "averageOccupancyPerMonth": "21",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "42",
+                  "totalPrice": "840000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "102",
+                  "totalPrice": "3060000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "68",
+                  "totalPrice": "1360000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "officeName": "UID JABAR",
+          "detailSummary": [
+            {
+              "roomName": "Ruang Galunggung",
+              "capacity": "30",
+              "averageOccupancyPerMonth": "24",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "145",
+                  "totalPrice": "2900000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "93",
+                  "totalPrice": "27900000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "62",
+                  "totalPrice": "1240000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Rinjani",
+              "capacity": "15",
+              "averageOccupancyPerMonth": "10",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "42",
+                  "totalPrice": "840000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "75",
+                  "totalPrice": "2250000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "52",
+                  "totalPrice": "1040000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Semeru",
+              "capacity": "25",
+              "averageOccupancyPerMonth": "23",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "67",
+                  "totalPrice": "13400000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "102",
+                  "totalPrice": "2880000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "68",
+                  "totalPrice": "1440000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Bromo",
+              "capacity": "20",
+              "averageOccupancyPerMonth": "18",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "80",
+                  "totalPrice": "1600000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "71",
+                  "totalPrice": "2130000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "52",
+                  "totalPrice": "1040000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "officeName": "UID JATIM",
+          "detailSummary": [
+            {
+              "roomName": "Ruang Sudirman",
+              "capacity": "30",
+              "averageOccupancyPerMonth": "22",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "64",
+                  "totalPrice": "1280000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "86",
+                  "totalPrice": "2580000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "90",
+                  "totalPrice": "2700000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Fatmawati",
+              "capacity": "35",
+              "averageOccupancyPerMonth": "32",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "125",
+                  "totalPrice": "2500000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "142",
+                  "totalPrice": "4260000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "82",
+                  "totalPrice": "1640000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "officeName": "UID BALI",
+          "detailSummary": [
+            {
+              "roomName": "Ruang Ganesha",
+              "capacity": "50",
+              "averageOccupancyPerMonth": "43",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "150",
+                  "totalPrice": "3000000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "100",
+                  "totalPrice": "3000000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "20",
+                  "totalPrice": "400000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "officeName": "UID JATENG & DIY",
+          "detailSummary": [
+            {
+              "roomName": "Ruang Arjuna",
+              "capacity": "40",
+              "averageOccupancyPerMonth": "34",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "154",
+                  "totalPrice": "3080000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "120",
+                  "totalPrice": "3600000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "114",
+                  "totalPrice": "2280000"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "createdAt": "2024-07-04T06:36:15.123Z",
+      "period": "Feb-2024",
+      "data": [
+        {
+          "officeName": "UID JAYA",
+          "detailSummary": [
+            {
+              "roomName": "Ruang Borobudur",
+              "capacity": "75",
+              "averageOccupancyPerMonth": "62",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "332",
+                  "totalPrice": "6640000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "356",
+                  "totalPrice": "10680000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "245",
+                  "totalPrice": "7350000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Prambanan",
+              "capacity": "50",
+              "averageOccupancyPerMonth": "42",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "147",
+                  "totalPrice": "740000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "87",
+                  "totalPrice": "2940000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "75",
+                  "totalPrice": "1500000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Mendhut",
+              "capacity": "30",
+              "averageOccupancyPerMonth": "26",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "168",
+                  "totalPrice": "3360000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "190",
+                  "totalPrice": "5700000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "98",
+                  "totalPrice": "1960000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "officeName": "UID JABAR",
+          "detailSummary": [
+            {
+              "roomName": "Ruang Galunggung",
+              "capacity": "30",
+              "averageOccupancyPerMonth": "28",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "115",
+                  "totalPrice": "2300000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "154",
+                  "totalPrice": "46200000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "92",
+                  "totalPrice": "1840000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Rinjani",
+              "capacity": "15",
+              "averageOccupancyPerMonth": "13",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "82",
+                  "totalPrice": "1640000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "137",
+                  "totalPrice": "4110000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "63",
+                  "totalPrice": "1260000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Semeru",
+              "capacity": "25",
+              "averageOccupancyPerMonth": "24",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "173",
+                  "totalPrice": "34600000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "142",
+                  "totalPrice": "4260000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "76",
+                  "totalPrice": "1520000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Bromo",
+              "capacity": "20",
+              "averageOccupancyPerMonth": "18",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "92",
+                  "totalPrice": "1840000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "149",
+                  "totalPrice": "4470000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "52",
+                  "totalPrice": "1040000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "officeName": "UID JATIM",
+          "detailSummary": [
+            {
+              "roomName": "Ruang Sudirman",
+              "capacity": "30",
+              "averageOccupancyPerMonth": "25",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "149",
+                  "totalPrice": "2980000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "172",
+                  "totalPrice": "5160000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "120",
+                  "totalPrice": "2400000"
+                }
+              ]
+            },
+            {
+              "roomName": "Ruang Fatmawati",
+              "capacity": "35",
+              "averageOccupancyPerMonth": "35",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "175",
+                  "totalPrice": "3500000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "140",
+                  "totalPrice": "4200000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "175",
+                  "totalPrice": "3500000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "officeName": "UID BALI",
+          "detailSummary": [
+            {
+              "roomName": "Ruang Ganesha",
+              "capacity": "50",
+              "averageOccupancyPerMonth": "45",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "135",
+                  "totalPrice": "2700000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "192",
+                  "totalPrice": "5760000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "152",
+                  "totalPrice": "3040000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "officeName": "UID JATENG & DIY",
+          "detailSummary": [
+            {
+              "roomName": "Ruang Arjuna",
+              "capacity": "40",
+              "averageOccupancyPerMonth": "38",
+              "totalConsumption": [
+                {
+                  "name": "Snack Siang",
+                  "totalPackage": "201",
+                  "totalPrice": "4020000"
+                },
+                {
+                  "name": "Makan Siang",
+                  "totalPackage": "404",
+                  "totalPrice": "12120000"
+                },
+                {
+                  "name": "Snack Sore",
+                  "totalPackage": "178",
+                  "totalPrice": "3560000"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "2"
+    }
+  ]
